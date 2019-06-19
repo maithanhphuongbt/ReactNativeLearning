@@ -29,11 +29,11 @@ export default class HomePage extends Component {
         let knowledges = [
         {id: 1, name: 'Navigation'},
         {id: 2, name: 'Flat List'},
-        {id: 3, name: 'envelope'},
-        {id: 4, name: 'etsy'},
-        {id: 5, name: 'facebook'},
-        {id: 6, name: 'foursquare'},
-        {id: 7, name: 'github-alt'},
+        {id: 3, name: 'Detect Platform'},
+        {id: 4, name: 'Get Width Height Device'},
+        {id: 5, name: 'Text Hyperlink'},
+        {id: 6, name: 'Vibration Control'},
+        {id: 7, name: 'Request Focus And Keyboard Avoiding ViewPage'},
         {id: 8, name: 'github'},
         {id: 9, name: 'gitlab'},
         {id: 10, name: 'instagram'},
@@ -74,6 +74,21 @@ export default class HomePage extends Component {
             break;
             case 2:
                 navigate('FlatListPage');
+            break;
+            case 3:
+                navigate('DetectPlatformPage');
+            break;
+            case 4:
+                navigate('GetWidthHeightDevicePage');
+            break;
+            case 5:
+                navigate('TextHyperlinkPage');
+            break;
+            case 6:
+                navigate('VibrationControlPage');
+            break;
+            case 7:
+                navigate('RequestFocusAndKeyboardAvoidingViewPage');
             break;
         }
     };
